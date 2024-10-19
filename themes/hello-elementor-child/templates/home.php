@@ -8,7 +8,7 @@ get_header();
 ?>
 <div class="sec-blog">
     <div class="container mx-auto lg:px-0 py-8">
-        <div class="flex flex-wrap gap-8">
+        <div class="flex flex-wrap ">
             <div class="w-full md:w-4/12">
                 <h2 class="text-2xl font-bold mb-4 ">TIN TỨC <span class="text-red ">MỚI NHẤT</span></h2>
                 <div class="space-y-4">
