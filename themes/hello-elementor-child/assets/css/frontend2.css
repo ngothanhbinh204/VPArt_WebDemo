@@ -1,13 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 .out {
-  background-color: red;
+    background-color: red;
 }
+
 .aa {
-  color: red;
+    color: red;
 }
+
 .demo4 {
-  background-color: aqua;
+    background-color: aqua;
 }

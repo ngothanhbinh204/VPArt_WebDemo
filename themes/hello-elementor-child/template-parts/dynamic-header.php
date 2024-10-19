@@ -72,5 +72,6 @@ $header_mobile_nav_menu = wp_nav_menu( $menu_args ); // The same menu but separa
 				?>
 			</nav>
 		<?php endif; ?>
+		
 	</div>
 </header>

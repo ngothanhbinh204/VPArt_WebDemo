@@ -28,6 +28,8 @@ function my_theme_enqueue_styles()
 {
     wp_enqueue_style('frontend1', get_stylesheet_directory_uri() . '/assets/css/frontend1.output.css');
     wp_enqueue_style('frontend2', get_stylesheet_directory_uri() . '/assets/css/frontend2.output.css');
+
+    wp_enqueue_script('cdn-tailwind', 'https://cdn.tailwindcss.com', array('jquery'), '1.0.0', true);
 }
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
 
