@@ -1,0 +1,178 @@
+.test {
+    background-color: red;
+}
+
+.input-search {
+    padding: 12px 16px !important;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    border-radius: 5px !important;
+    border-color: #acacac !important;
+}
+
+.button-search {
+    border-radius: 2.5px;
+    border: none;
+}
+
+.shadow-flashsale {
+    text-shadow: -1px 2px 0px #db0002;
+}
+
+.product-title {
+    font-weight: 600;
+    line-height: 21px;
+    align-items: center;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+
+.product-price {
+    font-size: 14px;
+    color: #eb1b22;
+    font-weight: 600;
+}
+
+.product-price-del {
+    font-size: 13px;
+    line-height: 19.5px;
+}
+
+.item-product {
+    padding: 6px 15px 15px 6px;
+}
+
+.title-heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    color: #333333;
+}
+
+.item-blog .title {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.item-blog .subtitle {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+body {
+    font-family: "Montserrat", sans-serif !important;
+    background: #f6f6f6;
+}
+
+
+/*
+Theme Name: Hello Elementor Child
+Theme URI: https://quataagency.com
+Template: hello-elementor
+Author: Quata Team
+Author URI: https://quataagency.com
+Description: Create Child Theme
+Tags: accessibility-ready,flexible-header,custom-colors,custom-menu,custom-logo,featured-images,rtl-language-support,threaded-comments,translation-ready
+Version: 3.1.1.1729254011
+Updated: 2024-10-18 12:20:11
+
+*/
+
+@media (min-width: 1344px) {
+    .container {
+        max-width: 1344px !important;
+        padding-right: 6rem/* 96px */
+        ;
+        padding-left: 6rem/* 96px */
+        ;
+    }
+}
+
+.box-tienich .box-content {
+    max-width: 186px;
+}
+
+.footer-box-number .number {
+    font-size: 128px;
+    font-weight: 700;
+    line-height: 128px;
+    text-align: left;
+    background: linear-gradient(90deg, #FFFFFF 26.5%, #F8941E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-box-number .text-brand {
+    font-size: 2.5rem;
+    line-height: 150%;
+}
+
+.flex-0-0-auto {
+    flex: 0 0 auto;
+}
+
+@media (max-width: 1024px) {
+    .footer-box-number .number {
+        font-size: 86px;
+        font-weight: 700;
+        line-height: 86px;
+    }
+    .footer-box-number .text-brand {
+        font-size: 1.5rem;
+        line-height: 150%;
+    }
+}
+
+.input-form {
+    position: relative;
+    z-index: 0;
+}
+
+.input-form input {
+    width: 100% !important;
+    height: 37px !important;
+    line-height: 37px !important;
+    padding: 0 10px !important;
+    background: #fff;
+    border: 0 !important;
+    font-size: 14px;
+    border-radius: 0;
+}
+
+.input-form input:focus {
+    outline: none !important;
+}
+
+.input-form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 37px;
+    height: 37px;
+    line-height: 37px;
+    vertical-align: middle;
+    background: #4D4D4D;
+    border: 0;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-form button svg {
+    width: 24px;
+    height: 24px;
+}
+
+.bg-cusgray {
+    background: #4D4D4D;
+}
+
+iframe {
+    width: 100%;
+    height: auto;
+}
